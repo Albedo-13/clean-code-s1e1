@@ -18,27 +18,26 @@
     </div>
   </header>
   <main>
+    <!-- TODO: task-input сменить во всех файлах -->
     <div class="container">
       <section class="add-tasks">
-        <div id="add">
-          <label for="new-task" class="new-task-label">Add Item</label>
-          <div class="task-wrapper">
-            <input id="new-task" class="task-input" type="text">
-            <button class="add">Add</button>
-          </div>
+        <label for="new-task" class="add-tasks__label">Add Item</label>
+        <div class="add-tasks__wrapper">
+          <input id="new-task" class="task-input" type="text">
+          <button class="add-tasks__add-button">Add</button>
         </div>
       </section>
-      <section class="incomplete-tasks">
-        <h3 class="subheader">Todo</h3>
+      <section class="tasks">
+        <h3 class="tasks__subheader">Todo</h3>
         <ul id="incomplete-tasks">
-          <li class="task">
+          <li class="tasks-item">
             <input type="checkbox">
             <label class="task-label">Pay Bills</label>
             <input type="text" class="task-input">
             <button class="edit">Edit</button>
             <button class="delete"><img src="./remove.svg" alt="remove task button"></button>
           </li>
-          <li class="edit-mode task">
+          <li class="edit-mode tasks-item">
             <input type="checkbox">
             <label class="task-label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task-input">
@@ -46,11 +45,9 @@
             <button class="delete"><img src="./remove.svg" alt="remove task button"></button>
           </li>
         </ul>
-      </section>
-      <section class="complete-tasks">
-        <h3 class="subheader">Completed</h3>
+        <h3 class="tasks__subheader">Completed</h3>
         <ul id="completed-tasks">
-          <li class="task">
+          <li class="tasks-item">
             <input type="checkbox" checked>
             <label class="task-label">See the Doctor</label>
             <input type="text" class="task-input">
