@@ -34,7 +34,9 @@ body {
   margin: 0 auto 0;
 }
 
-.task-input, .task-label, .new-task-label {
+.task-input,
+.task-label,
+.new-task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -57,7 +59,9 @@ input {
   outline: none;
 }
 
-.add, .edit, .delete {
+.add,
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +71,9 @@ input {
   cursor: pointer;
 }
 
-.add:hover, .edit:hover, .delete:hover {
+.add:hover,
+.edit:hover,
+.delete:hover {
   color: #3a3a3a;
 }
 
