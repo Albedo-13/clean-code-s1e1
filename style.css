@@ -4,47 +4,59 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .eisenhower-wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .eisenhower-wrapper img {
   width: 100%;
 }
+
 .eisenhower-wrapper .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .eisenhower-wrapper {
     text-align: center;
   }
+
 }
+
 .container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-input, .task-label, .new-task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-wrapper {
   display: flex;
 }
+
 ul {
   margin:0;
   padding: 0px;
 }
+
 li {
   list-style:none;
 }
+
 input {
   outline:none;
 }
+
 .add, .edit, .delete {
   background: none;
   border: 0px;
@@ -54,9 +66,11 @@ input {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .add:hover, .edit:hover, .delete:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .subheader,
 .new-task-label {
@@ -68,6 +82,7 @@ input {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -80,6 +95,7 @@ input {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
@@ -89,6 +105,7 @@ input {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -103,6 +120,7 @@ input {
   justify-content: space-between;
   align-items: center;
 }
+
 .task {
   vertical-align: middle;
 }
@@ -110,20 +128,24 @@ input {
 .task > input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .task > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task > input[type="text"] {
   width: 226px
 }
+
 .delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete img:hover {
   transform: rotateZ(0);
 }
