@@ -37,7 +37,7 @@ body {
 .task-input,
 .task-label,
 .new-task-label {
-  width: 56%;
+  width: 100%;
   display: inline-block;
   flex-grow: 1;
 }
