@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.header__wrapper img {
+.header__wrapper .header__img {
   width: 100%;
 }
 
@@ -146,13 +146,13 @@ input {
   width: 226px;
 }
 
-.tasks-item__delete img {
+.tasks-item__delete .tasks-item__del-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.tasks-item__delete img:hover {
+.tasks-item__delete .tasks-item__del-img:hover {
   transform: rotateZ(0);
 }
 

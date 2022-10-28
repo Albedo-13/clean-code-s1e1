@@ -12,7 +12,7 @@
 <body>
   <header class="header">
     <div class="header__wrapper">
-      <img src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
+      <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
       <a href="https://goal-life.com/page/method/matrix-eisenhower"
         class="header__more-inf">Want more details?</a>
     </div>
@@ -35,14 +35,18 @@
             <label class="tasks-item__label">Pay Bills</label>
             <input class="task-input" type="text">
             <button class="tasks-item__edit">Edit</button>
-            <button class="tasks-item__delete"><img src="./remove.svg" alt="remove task button"></button>
+            <button class="tasks-item__delete">
+              <img class="tasks-item__del-img" src="./remove.svg" alt="remove task button">
+            </button>
           </li>
           <li class="tasks-item__edit-mode tasks-item">
             <input class="tasks-item__checkbox" type="checkbox">
             <label class="tasks-item__label">Go Shopping</label>
             <input class="task-input" type="text" value="Go Shopping">
             <button class="tasks-item__edit">Save</button>
-            <button class="tasks-item__delete"><img src="./remove.svg" alt="remove task button"></button>
+            <button class="tasks-item__delete">
+              <img class="tasks-item__del-img" src="./remove.svg" alt="remove task button">
+            </button>
           </li>
         </ul>
         <h3 class="tasks__subheader">Completed</h3>
@@ -52,7 +56,9 @@
             <label class="tasks-item__label">See the Doctor</label>
             <input class="task-input" type="text">
             <button class="tasks-item__edit">Edit</button>
-            <button class="tasks-item__delete"><img src="./remove.svg" alt="remove task button"></button>
+            <button class="tasks-item__delete">
+              <img class="tasks-item__del-img" src="./remove.svg" alt="remove task button">
+            </button>
           </li>
         </ul>
       </section>
