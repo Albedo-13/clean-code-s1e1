@@ -5,24 +5,24 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.eisenhower-wrapper {
+.header-wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.eisenhower-wrapper img {
+.header-wrapper img {
   width: 100%;
 }
 
-.eisenhower-wrapper .more-inf {
+.header-wrapper .header__more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .eisenhower-wrapper {
+  .header-wrapper {
     text-align: center;
   }
 
